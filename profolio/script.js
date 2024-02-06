@@ -26,11 +26,11 @@ function checkVisible(elm) {
 function switchMenu() {
   if (checkVisible(contactSection)) {
     setMenuActive(3);
-  } else if (checkVisible(projectSection)) {
+  } else if (checkVisible(skillsSection)) {
     setMenuActive(2);
   } else if (checkVisible(aboutSection)) {
     setMenuActive(0);
-  } else if (checkVisible(skillsSection)) {
+  } else if (checkVisible(projectSection)) {
     setMenuActive(1);
   }
 
