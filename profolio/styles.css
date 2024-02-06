@@ -3,7 +3,7 @@
   /* --bg-main-color: #222831; */
   --bg-main-color: #0f1624;
 
-  --fs-h-large: 32px;
+  --fs-h-large: 30px;
   --fs-h-medium: 20px;
   --fs-body-1: 14px;
 
@@ -60,11 +60,17 @@ body {
 }
 
 .text-violet {
-    background-image: -webkit-linear-gradient(129deg, rgba(19,173,199,1) 3%, rgba(105,120,209,1) 54%, rgba(148,93,214,1) 80%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(
+    129deg,
+    rgba(19, 173, 199, 1) 3%,
+    rgba(105, 120, 209, 1) 54%,
+    rgba(148, 93, 214, 1) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .text-secondary {
@@ -74,7 +80,7 @@ body {
 .header-large {
   font-size: var(--fs-h-large);
   line-height: 1;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .header-medium {
@@ -126,7 +132,12 @@ nav > ul > li::before {
   content: "";
   height: 4px;
   width: 2rem;
-  background-color: #f896d8;
+  background-image: linear-gradient(
+    129deg,
+    rgba(19, 173, 199, 1) 3%,
+    rgba(105, 120, 209, 1) 54%,
+    rgba(148, 93, 214, 1) 80%
+  );
   position: absolute;
   bottom: -4px;
   transition: width 0.2s ease-in-out;
@@ -219,13 +230,18 @@ header .links > *:not(:last-child) {
   padding: 10px;
   border: 2px solid white;
   border-radius: 6px;
-  transition: all 0.3s ease-in-out;
+  transition: all 3s ease-in-out;
   cursor: pointer;
 }
 
 #a-propos > button:hover {
-  background-image: -webkit-linear-gradient(129deg, rgba(19,173,199,1) 3%, rgba(105,120,209,1) 54%, rgba(148,93,214,1) 80%);
-  border-color: -webkit-linear-gradient(129deg, rgba(19,173,199,1) 3%, rgba(105,120,209,1) 54%, rgba(148,93,214,1) 80%);;
+  background: linear-gradient(
+    129deg,
+    rgba(19, 173, 199, 1) 3%,
+    rgba(105, 120, 209, 1) 54%,
+    rgba(148, 93, 214, 1) 80%
+  );
+  transition: all 3s ease-in-out;
 }
 
 #a-propos > button:hover a {
