@@ -60,9 +60,7 @@ body {
 }
 
 .text-violet {
-  
-background: -webkit-linear-gradient(129deg, rgba(19,173,199,1) 3%, rgba(105,120,209,1) 54%, rgba(148,93,214,1) 80%);
-    background-size: 100%;
+    background: -webkit-linear-gradient(129deg, rgba(19,173,199,1) 3%, rgba(105,120,209,1) 54%, rgba(148,93,214,1) 80%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
