@@ -153,7 +153,7 @@ header .links > *:not(:last-child) {
 }
 
 .links i {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
   transition: color 0.3s ease-in-out;
 }
 
@@ -167,7 +167,7 @@ header .links > *:not(:last-child) {
   color: var(--bg-main-color);
   font-size: 20px;
   font-weight: 600;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
 }
@@ -189,7 +189,7 @@ header .links > *:not(:last-child) {
 }
 
 .scroll-section p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .scroll-section a {
@@ -276,10 +276,10 @@ header .links > *:not(:last-child) {
 }
 
 .projet > .techniques > button {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
   background-color: transparent;
   padding: 5px 10px;
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 4px;
 }
 
