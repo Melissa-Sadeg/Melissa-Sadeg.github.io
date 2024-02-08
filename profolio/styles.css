@@ -299,7 +299,7 @@ header .links > *:not(:last-child) {
 }
 
 .projet:hover h3 {
-  color: #f896d8;
+  color: white;
 }
 
 .projet > .img-container {
