@@ -250,7 +250,7 @@ header .links > *:not(:last-child) {
 }
 
 .scroll-section a:hover {
-  color: #f896d8;
+  color: white;
 }
 
 #a-propos {
