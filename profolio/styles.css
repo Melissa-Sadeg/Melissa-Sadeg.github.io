@@ -2,7 +2,7 @@
   /* define colors */
   /* --bg-main-color: #222831; */
   --bg-main-color: #0f1624;
-  --bg-main-color: #FFF5EE;
+  --bg-main-color: ##00BFFF;
 
   --fs-h-large: 30px;
   --fs-h-medium: 20px;
@@ -251,7 +251,7 @@ header .links > *:not(:last-child) {
 }
 
 .scroll-section a:hover {
-  color: #FFF5EE;
+  color: #00BFFF;
 }
 
 #a-propos {
@@ -295,7 +295,7 @@ header .links > *:not(:last-child) {
 .projet > h3 {
   font-size: 24px;
   font-weight: 600;
-  color: #FFF5EE;
+  color: #00BFFF;
   transition: color 0.3s ease-in-out;
 }
 
