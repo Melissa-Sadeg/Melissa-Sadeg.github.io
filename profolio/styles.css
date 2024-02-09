@@ -295,12 +295,12 @@ header .links > *:not(:last-child) {
 .projet > h3 {
   font-size: 24px;
   font-weight: 600;
-  color: #222831;
+  color: white;
   transition: color 0.3s ease-in-out;
 }
 
 .projet:hover h3 {
-  color: white;
+  color: #3a86ff;
 }
 
 .projet > .img-container {
