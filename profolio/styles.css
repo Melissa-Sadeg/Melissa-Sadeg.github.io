@@ -2,7 +2,7 @@
   /* define colors */
   /* --bg-main-color: #222831; */
   --bg-main-color: #0f1624;
-  --bg-main-color: ##00BFFF;
+  --bg-main-color: #00BFFF;
 
   --fs-h-large: 30px;
   --fs-h-medium: 20px;
@@ -300,7 +300,7 @@ header .links > *:not(:last-child) {
 }
 
 .projet:hover h3 {
-  color: white;
+  color: #00BFFF;
 }
 
 .projet > .img-container {
